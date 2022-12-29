@@ -1,11 +1,12 @@
 import React from 'react'
 import {Card,CardActionArea,CardMedia,CardContent,Typography,Box, TextField,MenuItem,Grid} from '@mui/material'
 import hero from '../../img/AdobeStock_305859435_Preview.jpeg'
+import Coursescard from './Coursescard'
 
 const Courses = () => {
   return (
     <Box>
-      <Typography variant="h4" color="initial" align='center' pb={4}>
+      <Typography variant="h4"  align='center' pb={4}>
         find <b>Online Tutor</b>  in any <b>Subject</b>
       </Typography>
 
@@ -28,193 +29,52 @@ const Courses = () => {
 
         <Box mx={8} align='center' pt={4}>
         <Grid container rowSpacing={4} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
-  <Grid item xs={3}>
-    {/* <Item> */}
-      <Box>
-    <Card sx={{ maxWidth: 245 }}>
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          height="140"
-          image={hero}
-          alt="gr iguana"
-
-        />
-        <CardContent align='center'>
-          <Typography gutterBottom variant="h5" component="div">
-            Computer Sceince
-          </Typography>
-          <Typography variant="body2" color="primary">
-            SHOW DESCRIPTION
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-      
-    </Card>
-    </Box>
+  <Grid item xs={12} sm={6} md={3} lg={3}>
+    
+      <Coursescard/>
     
   </Grid>
-  <Grid item xs={3}>
-  <Card sx={{ maxWidth: 245 }}>
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          height="140"
-          image={hero}
-          alt="gr iguana"
-
-        />
-        <CardContent align='center'>
-        <Typography gutterBottom variant="h5" component="div">
-            Computer Sceince
-          </Typography>
-          <Typography variant="body2" color="primary">
-            SHOW DESCRIPTION
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-      
-    </Card>
+  <Grid item xs={12} sm={6} md={3} lg={3}>
+    
+      <Coursescard/>
+    
   </Grid>
-  <Grid item xs={3}>
-  <Card sx={{ maxWidth: 245 }}>
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          height="140"
-          image={hero}
-          alt="gr iguana"
-
-        />
-        <CardContent align='center'>
-        <Typography gutterBottom variant="h5" component="div">
-            Computer Sceince
-          </Typography>
-          <Typography variant="body2" color="primary">
-            SHOW DESCRIPTION
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-      
-    </Card>
+  <Grid item xs={12} sm={6} md={3} lg={3}>
+    
+      <Coursescard/>
+    
   </Grid>
-  <Grid item xs={3}>
-  <Card sx={{ maxWidth: 245 }}>
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          height="140"
-          image={hero}
-          alt="gr iguana"
-
-        />
-        <CardContent align='center'>
-        <Typography gutterBottom variant="h5" component="div">
-            Computer Sceince
-          </Typography>
-          <Typography variant="body2" color="primary">
-            SHOW DESCRIPTION
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-      
-    </Card>
+  <Grid item xs={12} sm={6} md={3} lg={3}>
+    
+      <Coursescard/>
+    
   </Grid>
-  <Grid item xs={3}>
-  <Card sx={{ maxWidth: 245 }}>
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          height="140"
-          image={hero}
-          alt="gr iguana"
-
-        />
-        <CardContent align='center'>
-        <Typography gutterBottom variant="h5" component="div">
-            Computer Sceince
-          </Typography>
-          <Typography variant="body2" color="primary">
-            SHOW DESCRIPTION
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-      
-    </Card>
+  <Grid item xs={12} sm={6} md={3} lg={3}>
+    
+      <Coursescard/>
+    
   </Grid>
-  <Grid item xs={3}>
-  <Card sx={{ maxWidth: 245 }}>
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          height="140"
-          image={hero}
-          alt="gr iguana"
-
-        />
-        <CardContent align='center'>
-        <Typography gutterBottom variant="h5" component="div">
-            Computer Sceince
-          </Typography>
-          <Typography variant="body2" color="primary">
-            SHOW DESCRIPTION
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-      
-    </Card>
+  <Grid item xs={12} sm={6} md={3} lg={3}>
+    
+      <Coursescard/>
+    
   </Grid>
-  <Grid item xs={3}>
-  <Card sx={{ maxWidth: 245 }}>
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          height="140"
-          image={hero}
-          alt="gr iguana"
-
-        />
-        <CardContent align='center'>
-        <Typography gutterBottom variant="h5" component="div">
-            Computer Sceince
-          </Typography>
-          <Typography variant="body2" color="primary">
-            SHOW DESCRIPTION
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-      
-    </Card>
+  <Grid item xs={12} sm={6} md={3} lg={3}>
+    
+      <Coursescard/>
+    
   </Grid>
-  <Grid item xs={3}>
-  <Card sx={{ maxWidth: 245 }}>
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          height="140"
-          image={hero}
-          alt="gr iguana"
-
-        />
-        <CardContent align='center'>
-        <Typography gutterBottom variant="h5" component="div">
-            Computer Sceince
-          </Typography>
-          <Typography variant="body2" color="primary">
-            SHOW DESCRIPTION
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-      
-    </Card>
+  <Grid item xs={12} sm={6} md={3} lg={3}>
+    
+      <Coursescard/>
+    
   </Grid>
-
-
+  
   
   
 </Grid>
         </Box>
-  <Typography align='center' pt={8} variant="h5" color={'primary'}>show more</Typography>
+  <Typography align='center' pt={8} pb={8} variant="h5" color={'primary'}>show more</Typography>
 
     </Box>
   )

@@ -1,5 +1,5 @@
 import React from 'react'
-import {Box, Typography,Stack, Grid, Item, Button, CardContent, CardMedia,CardActionArea,Card } from '@mui/material'
+import {Box, Typography,Stack, Grid, Item, Button, CardContent, CardMedia,CardActionArea,Card, Container } from '@mui/material'
 import LaptopChromebookIcon from '@mui/icons-material/LaptopChromebook';
 import hero from '../../img/AdobeStock_305859435_Preview.jpeg'
 import Cards from '../card/Cards';
@@ -7,11 +7,40 @@ import Cards from '../card/Cards';
 
 const WhyUs = () => {
   return (
-    <Box pb={7}>
+    <Container pb={7}>
       <Typography variant='h4' align='center' pb={6}>
         Why Us?
       </Typography>
-      <Stack direction={'row'} spacing={5} justifyContent="space-evenly">
+       <Grid
+        container
+        columnSpacing={{ xs: 1, sm: 2, md: 3 }}
+        spacing={3}
+        mb={7}
+        // direction="row"
+        justify="center"
+        alignItems="center"
+        alignContent="center"
+        // wrap="nowrap"
+        
+      >
+      
+        <Grid item xs={12} sm={6} md={3} lg={3}>
+          <Cards/>
+        </Grid>
+        <Grid item xs={12} sm={6} md={3} lg={3}>
+          <Cards/>
+        </Grid>
+        <Grid item xs={12} sm={6} md={3} lg={3}>
+          <Cards/>
+        </Grid>
+        <Grid item xs={12} sm={6} md={3} lg={3}>
+          <Cards/>
+        </Grid>
+        
+        
+        
+      </Grid>
+      {/* <Stack direction={'row'} spacing={5} justifyContent="space-evenly">
         <Box>
         <Card sx={{ maxWidth: 245 }}>
       <CardActionArea>
@@ -105,8 +134,8 @@ const WhyUs = () => {
     </Card>
         </Box>
 
-      </Stack>
-    </Box>
+      </Stack> */}
+    </Container>
   )
 }
 
